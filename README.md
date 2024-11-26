@@ -58,7 +58,7 @@ Follow these steps to set up and run the application locally:
    python manage.py migrate
    python manage.py runserver
 
-3. **Start thhe frontend**:
+3. **Start the frontend**:
     cd frontend
     npm start
 

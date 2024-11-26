@@ -53,14 +53,15 @@ Follow these steps to set up and run the application locally:
 3. **Set up the backend**:
    cd backend
    python -m venv venv
-   source venv/bin/activate  
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
    python manage.py migrate
    python manage.py runserver
 
+
 3. **Start the frontend**:
-    cd frontend
-    npm start
+   cd frontend
+   npm start
 
 ---
 

@@ -51,6 +51,7 @@ Follow these steps to set up and run the application locally:
    npm install
 
 3. **Set up the backend**:
+   ```bash
    cd backend
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
